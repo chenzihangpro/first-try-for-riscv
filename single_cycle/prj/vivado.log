@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 14 18:53:04 2025
+# Process ID: 14600
+# Current directory: F:/FPGA/signgle_cycle/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7612 F:\FPGA\signgle_cycle\prj\single_riscv.xpr
+# Log file: F:/FPGA/signgle_cycle/prj/vivado.log
+# Journal file: F:/FPGA/signgle_cycle/prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/FPGA/signgle_cycle/prj/single_riscv.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'F:/FPGA/signgle_cycle/prj/single_riscv.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado2020.2/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1118.574 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation -scripts_only
+INFO: [Vivado 12-5680] Creating behavioral simulation scripts in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-60] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/compile.bat
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-60] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/elaborate.bat
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-60] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/simulate.bat
+launch_simulation
+Command: launch_simulation -scripts_only
+INFO: [Vivado 12-5680] Creating behavioral simulation scripts in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-60] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/compile.bat
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-60] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/elaborate.bat
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-60] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/simulate.bat
+export_ip_user_files -of_objects  [get_files F:/FPGA/signgle_cycle/tb/tb_CPU.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 F:/FPGA/signgle_cycle/tb/tb_CPU.v
+launch_simulation
+Command: launch_simulation -scripts_only
+INFO: [Vivado 12-5680] Creating behavioral simulation scripts in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-60] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/compile.bat
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-60] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/elaborate.bat
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-60] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/simulate.bat
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 14 18:59:49 2025...

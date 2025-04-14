@@ -1,0 +1,31 @@
+# do {CPU_tb_compile.do}
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 19:07:47 on Apr 14,2025
+# vlog -incr -work xil_defaultlib ../../../../../rtl/ALU.v ../../../../../rtl/ALU_control.v ../../../../../rtl/CPU.v ../../../../../rtl/DM_module.v ../../../../../rtl/ImmExtend.v ../../../../../rtl/PC_module.v ../../../../../rtl/PM_module.v ../../../../../rtl/Register_file.v ../../../../../rtl/control.v ../../../../../tb/tb_CPU.v 
+# -- Compiling module ALU
+# -- Compiling module ALU_control
+# -- Compiling module CPU
+# -- Compiling module DM_module
+# -- Compiling module ImmExtend
+# -- Compiling module PC_module
+# -- Compiling module PM_module
+# -- Compiling module Register_file
+# -- Compiling module control
+# -- Compiling module CPU_tb
+# 
+# Top level modules:
+# 	CPU_tb
+# End time: 19:07:47 on Apr 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 19:07:47 on Apr 14,2025
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 19:07:47 on Apr 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/ALU_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/DM_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DM_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/ImmExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/PC_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/PM_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PM_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/Register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/tb/tb_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

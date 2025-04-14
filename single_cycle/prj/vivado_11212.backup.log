@@ -1,0 +1,300 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 14 18:26:11 2025
+# Process ID: 11212
+# Current directory: F:/FPGA/signgle_cycle/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9984 F:\FPGA\signgle_cycle\prj\single_riscv.xpr
+# Log file: F:/FPGA/signgle_cycle/prj/vivado.log
+# Journal file: F:/FPGA/signgle_cycle/prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/FPGA/signgle_cycle/prj/single_riscv.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'F:/FPGA/signgle_cycle/prj/single_riscv.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado2020.2/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1118.273 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/ALU_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/DM_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DM_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/PC_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/PM_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PM_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/Register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+"xelab -wto 8692a877537443b38adb782710308555 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado2020.2/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 8692a877537443b38adb782710308555 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <ImmExtend> not found while processing module instance <imm_extend> [F:/FPGA/signgle_cycle/rtl/CPU.v:84]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+add_files -norecurse F:/FPGA/signgle_cycle/rtl/IMM_extend.v
+WARNING: [filemgmt 56-12] File 'F:/FPGA/signgle_cycle/rtl/IMM_extend.v' cannot be added to the project because it already exists in the project, skipping this file
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+"xelab -wto 8692a877537443b38adb782710308555 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado2020.2/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 8692a877537443b38adb782710308555 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <ImmExtend> not found while processing module instance <imm_extend> [F:/FPGA/signgle_cycle/rtl/CPU.v:84]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files F:/FPGA/signgle_cycle/rtl/IMM_extend.v] -no_script -reset -force -quiet
+remove_files  F:/FPGA/signgle_cycle/rtl/IMM_extend.v
+add_files -norecurse F:/FPGA/signgle_cycle/rtl/ImmExtend.v
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/ImmExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmExtend
+ERROR: [VRFC 10-2989] 'instrction' is not declared [F:/FPGA/signgle_cycle/rtl/ImmExtend.v:9]
+ERROR: [VRFC 10-2989] 'instrction' is not declared [F:/FPGA/signgle_cycle/rtl/ImmExtend.v:11]
+ERROR: [VRFC 10-2989] 'instrction' is not declared [F:/FPGA/signgle_cycle/rtl/ImmExtend.v:13]
+ERROR: [VRFC 10-2989] 'instrction' is not declared [F:/FPGA/signgle_cycle/rtl/ImmExtend.v:15]
+ERROR: [VRFC 10-2865] module 'ImmExtend' ignored due to previous errors [F:/FPGA/signgle_cycle/rtl/ImmExtend.v:2]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/signgle_cycle/rtl/ImmExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmExtend
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+"xelab -wto 8692a877537443b38adb782710308555 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado2020.2/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 8692a877537443b38adb782710308555 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_behav xil_defaultlib.CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 7 for port 'instruction' [F:/FPGA/signgle_cycle/rtl/CPU.v:90]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC_module
+Compiling module xil_defaultlib.PM_module
+Compiling module xil_defaultlib.Register_file
+Compiling module xil_defaultlib.ImmExtend
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.ALU_control
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DM_module
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/xsim.dir/CPU_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 14 18:42:40 2025...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1118.273 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_behav -key {Behavioral:sim_1:Functional:CPU} -tclbatch {CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 1152.922 ; gain = 34.648
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property target_simulator ModelSim [current_project]
+set_property compxlib.modelsim_compiled_library_dir E:/Modelsim2020.4/vivado2020.2_lib [current_project]
+set_property generate_scripts_only 1 [current_fileset -simset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [F:\FPGA\signgle_cycle\rtl\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [F:\FPGA\signgle_cycle\rtl\ImmExtend.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation -install_path E:/Modelsim2020.4/win64
+Command: launch_simulation -install_path E:/Modelsim2020.4/win64 -scripts_only
+INFO: [Vivado 12-5680] Creating behavioral simulation scripts in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-50] Using simulator executables from 'E:/Modelsim2020.4/win64/vsim.exe'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/Modelsim2020.4/vivado2020.2_lib/modelsim.ini' copied to run dir:'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-68] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim/compile.bat
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-68] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim/simulate.bat
+launch_simulation -install_path E:/Modelsim2020.4/win64
+Command: launch_simulation -install_path E:/Modelsim2020.4/win64 -scripts_only
+INFO: [Vivado 12-5680] Creating behavioral simulation scripts in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-50] Using simulator executables from 'E:/Modelsim2020.4/win64/vsim.exe'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/Modelsim2020.4/vivado2020.2_lib/modelsim.ini' copied to run dir:'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-68] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim/compile.bat
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-68] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim/simulate.bat
+launch_simulation -install_path E:/Modelsim2020.4/win64 -gcc_install_path E:/Modelsim2020.4/vivado2020.2_lib
+Command: launch_simulation -install_path E:/Modelsim2020.4/win64 -gcc_install_path E:/Modelsim2020.4/vivado2020.2_lib -scripts_only
+INFO: [Vivado 12-5680] Creating behavioral simulation scripts in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-50] Using simulator executables from 'E:/Modelsim2020.4/win64/vsim.exe'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/Modelsim2020.4/vivado2020.2_lib/modelsim.ini' copied to run dir:'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-68] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim/compile.bat
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-68] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim/simulate.bat
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse F:/FPGA/signgle_cycle/tb/tb_CPU.v
+update_compile_order -fileset sim_1
+launch_simulation -install_path E:/Modelsim2020.4/win64 -gcc_install_path E:/Modelsim2020.4/vivado2020.2_lib
+Command: launch_simulation -install_path E:/Modelsim2020.4/win64 -gcc_install_path E:/Modelsim2020.4/vivado2020.2_lib -scripts_only
+INFO: [Vivado 12-5680] Creating behavioral simulation scripts in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim'
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-50] Using simulator executables from 'E:/Modelsim2020.4/win64/vsim.exe'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'E:/Modelsim2020.4/vivado2020.2_lib/modelsim.ini' copied to run dir:'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU_tb' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-68] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim/compile.bat
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-68] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim/simulate.bat
+update_compile_order -fileset sim_1
+set_property target_simulator XSim [current_project]
+launch_simulation
+Command: launch_simulation -scripts_only
+INFO: [Vivado 12-5680] Creating behavioral simulation scripts in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-60] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/compile.bat
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-60] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/elaborate.bat
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-60] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/simulate.bat
+launch_simulation
+Command: launch_simulation -scripts_only
+INFO: [Vivado 12-5680] Creating behavioral simulation scripts in 'F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-60] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/compile.bat
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-60] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/elaborate.bat
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-60] Script generated:F:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/xsim/simulate.bat
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 14 18:52:57 2025...

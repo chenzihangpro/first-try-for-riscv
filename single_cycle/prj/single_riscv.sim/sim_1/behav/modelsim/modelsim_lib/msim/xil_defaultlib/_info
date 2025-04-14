@@ -1,0 +1,283 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/FPGA/signgle_cycle/prj/single_riscv.sim/sim_1/behav/modelsim
+T_opt
+!s110 1744628879
+V??S[bdXVHN^GcTY<h1XkE1
+04 6 4 work CPU_tb fast 0
+04 4 4 work glbl fast 0
+=1-988fe060dedd-67fcec8e-2d1-3a70
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vALU
+Z2 !s110 1744628867
+!i10b 1
+!s100 PRE0J5IR:W6Rg<X6`Beoi2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IgQ9=hG^X=^[4zQEF7>34N2
+R0
+w1744536875
+8../../../../../rtl/ALU.v
+F../../../../../rtl/ALU.v
+!i122 0
+L0 2 57
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1744628867.000000
+Z7 !s107 ../../../../../tb/tb_CPU.v|../../../../../rtl/control.v|../../../../../rtl/Register_file.v|../../../../../rtl/PM_module.v|../../../../../rtl/PC_module.v|../../../../../rtl/ImmExtend.v|../../../../../rtl/DM_module.v|../../../../../rtl/CPU.v|../../../../../rtl/ALU_control.v|../../../../../rtl/ALU.v|
+Z8 !s90 -incr|-work|xil_defaultlib|../../../../../rtl/ALU.v|../../../../../rtl/ALU_control.v|../../../../../rtl/CPU.v|../../../../../rtl/DM_module.v|../../../../../rtl/ImmExtend.v|../../../../../rtl/PC_module.v|../../../../../rtl/PM_module.v|../../../../../rtl/Register_file.v|../../../../../rtl/control.v|../../../../../tb/tb_CPU.v|
+!i113 0
+Z9 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@a@l@u
+vALU_control
+R2
+!i10b 1
+!s100 P5J5FZWXiWR^BQXN6f:>D1
+R3
+IR__E_B]99T3;f:j]:ah6C2
+R0
+w1744536594
+8../../../../../rtl/ALU_control.v
+F../../../../../rtl/ALU_control.v
+!i122 0
+L0 2 49
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@a@l@u_control
+vcontrol
+R2
+!i10b 1
+!s100 ZW@eC?bo=f<>T?fB95i2l0
+R3
+IJ`cIDV=llzVJ@R629ALQW0
+R0
+w1744536343
+8../../../../../rtl/control.v
+F../../../../../rtl/control.v
+!i122 0
+L0 2 74
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vCPU
+R2
+!i10b 1
+!s100 8=dGkZUQ_ec^Gl6za>S6=2
+R3
+IUIa]Hg5>XZ16e5C=?kcYJ3
+R0
+w1744536946
+8../../../../../rtl/CPU.v
+F../../../../../rtl/CPU.v
+!i122 0
+L0 2 127
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@c@p@u
+vCPU_tb
+R2
+!i10b 1
+!s100 LLbL20HkTV4WdYjo^hGzG2
+R3
+IVUb7^2l?`nB^n3>EYaz>X3
+R0
+w1744627891
+8../../../../../tb/tb_CPU.v
+F../../../../../tb/tb_CPU.v
+!i122 0
+L0 2 173
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@c@p@u_tb
+vDM_module
+R2
+!i10b 1
+!s100 HXc@S7]?JWfl:]S:Wni`T0
+R3
+IL>@oBJLN5mCfPO?>aGnQH2
+R0
+w1744537174
+8../../../../../rtl/DM_module.v
+F../../../../../rtl/DM_module.v
+!i122 0
+L0 2 46
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@d@m_module
+vglbl
+R2
+!i10b 1
+!s100 ZHmTNm_h3dd`6mIQLzSUN3
+R3
+IJT>_:<WW6a7KP^k3<8E3=1
+R0
+w1605673889
+8glbl.v
+Fglbl.v
+!i122 1
+L0 6 78
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R9
+R1
+vImmExtend
+R2
+!i10b 1
+!s100 IaK]XE=aWnMKRNaHD]io:3
+R3
+IOT32XhFM0NCfQobX75f<G2
+R0
+w1744627335
+8../../../../../rtl/ImmExtend.v
+F../../../../../rtl/ImmExtend.v
+!i122 0
+L0 2 20
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@imm@extend
+vPC_module
+R2
+!i10b 1
+!s100 ad^A;GgMX__e=T`JCiA6B1
+R3
+IX]ZFodjKW?h8D5Jb]n<^Z0
+R0
+w1744537069
+8../../../../../rtl/PC_module.v
+F../../../../../rtl/PC_module.v
+!i122 0
+L0 2 18
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@p@c_module
+vPM_module
+R2
+!i10b 1
+!s100 8gBb9>VZ?[P>ZM[[P9YAK0
+R3
+I`CHZ;S]a>]OjTYC69oFbJ0
+R0
+w1744537512
+8../../../../../rtl/PM_module.v
+F../../../../../rtl/PM_module.v
+!i122 0
+L0 2 9
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@p@m_module
+vRegister_file
+R2
+!i10b 1
+!s100 jR2c_Ao[Ci?E6TGeQSA?R2
+R3
+IkCP[:ZOM4SD>`H1QUI0Cb1
+R0
+w1744537531
+8../../../../../rtl/Register_file.v
+F../../../../../rtl/Register_file.v
+!i122 0
+L0 2 59
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@register_file

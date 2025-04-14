@@ -1,0 +1,16 @@
+#--------------------------------------------------------------------------
+# Xilinx Vivado v2020.2 (64-bit)
+# SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Current time: Mon Apr 14 18:33:52 CST 2025
+# Process ID (PID): 11212
+# User: 86158
+# OS: Windows 10
+# Project: single_riscv
+# Part: xc7vx485tffg1157-1
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx.
+# Technical Support with this file and a testcase attached.
+#--------------------------------------------------------------------------
+Target FileSet is null. Cannot finish Drag-Drop operation.

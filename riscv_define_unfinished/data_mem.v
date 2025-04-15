@@ -1,35 +1,32 @@
 //temporarily save the data 
 module memory(
-    CLK    ,
-	addr   ,
-	DIN    ,
-	DOUT   ,
-	WRn    ,
-	RDn    
-);
-input CLK;
-input WRn;
-input RDn;
+    input CLK,
+    input WRn,      //写使能信号，低有效
+    input RDn,      //读使能信号，低有效
  
     
  
-input      [`RegAddrBus]     addr;
-input      [`RegBus]     DIN      ;
-output reg [`RegBus]     DOUT       ;
+    input      [`RegAddrBus]    addr,
+    input      [`RegBus]        DIN,
+    output reg [`RegBus]        DOUT,
  
   
-reg [`RegBus]memory_unit[0:`RegNum-1];
+    reg [`RegBus]memory_unit[0:`RegNum-1]
+);
+
  
  
 /************************************************************************************************/
-always @( posedge   CLK)
-  begin 
-	  if (WRn == `WriteEnable)   memory_unit[addr]<= DIN;
-  end 
+always @( posedge   CLK)begin
+    begin 
+        if (WRn == `WriteEnable)   memory_unit[addr]<= DIN;
+    end
+end
 /************************************************************************************************/
-always @( * )
-  begin 
-	  if (RDn == `ReadEnable)   DOUT<= memory_unit[addr];
-  end 
+always @( * )begin
+    begin 
+        if (RDn == `ReadEnable)   DOUT<= memory_unit[addr];
+    end
+end
 /***********************************************************************************************/
 endmodule

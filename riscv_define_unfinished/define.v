@@ -3,6 +3,7 @@
 `define ReadEnable 1'b1
 `define RstEnable 1'b0
 `define RstDisable 1'b1
+`define ImmWidth 32
 
 /*****************************Reset Signal*****************************************/
 `define ZeroWord 32'h0
@@ -19,9 +20,9 @@
 
 //inst_mem
 `define InstMemWidth 8
-`define InstMemDepth 128
-`define InstBus 31:0
-`define InstAddrBus 9:0
+`define InstMemDepth 128        
+`define InstBus 31:0            //指令位宽
+`define InstAddrBus 9:0         //指令存储器地址位宽
 
 //pc_reg
 

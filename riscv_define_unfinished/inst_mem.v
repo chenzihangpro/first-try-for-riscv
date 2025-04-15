@@ -4,7 +4,7 @@ input[`InstAddrBus] ReadAddress;
 output[`InstBus] Instruction;
   
 reg[`InstBus] Instruction;
-wire[`InstMemWidth:0] InstMem[`InstMemDepth:0];//8x128 = 2^10
+  wire[`InstMemWidth-1:0] InstMem[`InstMemDepth-1:0];//8x128 = 2^10
  
 //small store for 17 pieces of instruction
 assign InstMem[0] = 8'bz,       //0000000_00000_00000_000_00000_0110011 //ADD $0 $0 $0

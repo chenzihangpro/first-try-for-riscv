@@ -24,12 +24,12 @@ reg [`RegBus]memory_unit[0:`RegNum-1];
 /************************************************************************************************/
 always @( posedge   CLK)
   begin 
-    if (WRn == WriteEnable)   memory_unit[addr]<= DIN;
+	  if (WRn == `WriteEnable)   memory_unit[addr]<= DIN;
   end 
 /************************************************************************************************/
 always @( * )
   begin 
-    if (RDn == ReadEnable)   DOUT<= memory_unit[addr];
+	  if (RDn == `ReadEnable)   DOUT<= memory_unit[addr];
   end 
 /***********************************************************************************************/
 endmodule

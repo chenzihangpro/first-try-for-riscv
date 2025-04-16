@@ -1,0 +1,28 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/work/XILINX/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto c202e7b1aed441ef8a44194991d23a7d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_behav xil_defaultlib.top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 31 differs from formal bit length 32 for port 'write_data' [D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/module_top.v:62]
+WARNING: [VRFC 10-3091] actual bit length 31 differs from formal bit length 32 for port 'ALU_result' [D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/module_top.v:77]
+WARNING: [VRFC 10-3091] actual bit length 31 differs from formal bit length 5 for port 'addr' [D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/module_top.v:109]
+WARNING: [VRFC 10-3091] actual bit length 31 differs from formal bit length 32 for port 'out2' [D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/module_top.v:120]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/prj/CPU_riscv.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/prj/CPU_riscv.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC_reg
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.register
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.ALUcontrol
+Compiling module xil_defaultlib.immgen
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_behav

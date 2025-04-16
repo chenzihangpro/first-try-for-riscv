@@ -1,0 +1,16 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/prj/CPU_riscv.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/ALU.v,1744766491,verilog,,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/ALUcontrol.v,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/define.v,ALU,,,,,,,,
+D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/ALUcontrol.v,1744766709,verilog,,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/common_reg.v,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/define.v,ALUcontrol,,,,,,,,
+D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/common_reg.v,1744767077,verilog,,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/control.v,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/define.v,register,,,,,,,,
+D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/control.v,1744766681,verilog,,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/data_mem.v,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/define.v,control,,,,,,,,
+D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/data_mem.v,1744767281,verilog,,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/imm_ex.v,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/define.v,memory,,,,,,,,
+D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/define.v,1744764772,verilog,,,,,,,,,,,,
+D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/imm_ex.v,1744767211,verilog,,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/inst_mem.v,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/define.v,immgen,,,,,,,,
+D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/inst_mem.v,1744766590,verilog,,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/mux2.v,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/define.v,Instruction_Memory,,,,,,,,
+D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/module_top.v,1744766724,verilog,,,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/define.v,top,,,,,,,,
+D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/mux2.v,1744766600,verilog,,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/pc_reg.v,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/define.v,mux2,,,,,,,,
+D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/pc_reg.v,1744766607,verilog,,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/module_top.v,D:/gitware/FPGA/first-try-for-riscv/riscv_define_unfinished/rtl/define.v,PC_reg,,,,,,,,
